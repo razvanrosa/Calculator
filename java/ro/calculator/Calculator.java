@@ -38,5 +38,35 @@ public class Calculator {
         y = scanner.nextInt();
         System.out.println("Modulo result is: " + LogicalOperations.modulo(x,y));
 
+        System.out.println("Enter first number");
+        double a = scanner.nextDouble();
+        System.out.println("Enter second number");
+        float b = scanner.nextFloat();
+        LogicalOperations.addition(a,b);
+
+        System.out.println("Enter first number");
+        long z = scanner.nextLong();
+        System.out.println("Enter second number");
+        y = scanner.nextInt();
+        LogicalOperations.substraction(z,y);
+
+        System.out.println("Enter first number");
+        x = scanner.nextInt();
+        System.out.println("Enter second number");
+        a = scanner.nextDouble();
+        LogicalOperations.multiplication(x,a);
+
+        System.out.println("Enter first number");
+        a = scanner.nextDouble();
+        System.out.println("Enter second number");
+        z = scanner.nextLong();
+        LogicalOperations.division(a,z);
+
+        System.out.println("Enter first number");
+        a = scanner.nextDouble();
+        System.out.println("Enter second number");
+        short e = scanner.nextShort();
+        LogicalOperations.modulo(a,e);
+
     }
 }
