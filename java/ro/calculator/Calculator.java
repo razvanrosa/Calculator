@@ -8,7 +8,7 @@ public class Calculator {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter first number");
+       System.out.println("Enter first number");
         int x = scanner.nextInt();
         System.out.println("Enter second number");
         int y = scanner.nextInt();
@@ -67,6 +67,28 @@ public class Calculator {
         System.out.println("Enter second number");
         short e = scanner.nextShort();
         LogicalOperations.modulo(a,e);
+
+        System.out.println("Count from a number to 100 ");
+        LogicalOperations.countFrom();
+
+        System.out.println("Count down for a number -100");
+        LogicalOperations.countDown();
+
+        System.out.println("Count between two number ");
+        LogicalOperations.countBetween();
+
+        System.out.println("Count between a small number tu a bigger one  ");
+        LogicalOperations.countFromSmallToBigger();
+
+        LogicalOperations.evenNumbers();
+
+        LogicalOperations.oddNumbers();
+
+        LogicalOperations.numberSum();
+
+        LogicalOperations.averageNumbers();
+
+        LogicalOperations.geometricShape();
 
     }
 }
